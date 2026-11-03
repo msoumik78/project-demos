@@ -1,0 +1,25 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-11-03T10:32:18.668+05:30  INFO 13776 --- [           main] demo.order.OrderApiApplication           : Starting OrderApiApplication v1.0.0 using Java 25.0.4.1 with PID 13776 (/Users/soumikmukherjee/personalCodebase/project-demos/virtual-threads-latency/order-api/target/order-api-1.0.0.jar started by soumikmukherjee in /Users/soumikmukherjee/personalCodebase/project-demos/virtual-threads-latency)
+2026-11-03T10:32:18.671+05:30  INFO 13776 --- [           main] demo.order.OrderApiApplication           : The following 1 profile is active: "virtual"
+2026-11-03T10:32:19.662+05:30  INFO 13776 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-03T10:32:19.675+05:30  INFO 13776 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T10:32:19.675+05:30  INFO 13776 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-11-03T10:32:19.709+05:30  INFO 13776 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-03T10:32:19.709+05:30  INFO 13776 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 972 ms
+2026-11-03T10:32:20.296+05:30  INFO 13776 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-03T10:32:20.350+05:30  INFO 13776 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-03T10:32:20.376+05:30  INFO 13776 --- [           main] demo.order.OrderApiApplication           : Started OrderApiApplication in 2.088 seconds (process running for 2.389)
+2026-11-03T10:32:20.640+05:30  INFO 13776 --- [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T10:32:20.641+05:30  INFO 13776 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T10:32:20.642+05:30  INFO 13776 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-03T10:33:11.102+05:30  INFO 13776 --- [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T10:33:11.107+05:30  INFO 13776 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

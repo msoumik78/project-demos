@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+# The stub must not be the bottleneck. Virtual threads let it park one
+# request per in-flight call without a small platform-thread pool.
+spring:
+  threads:
+    virtual:
+      enabled: true

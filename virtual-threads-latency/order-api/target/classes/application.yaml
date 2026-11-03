@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 40
+      min-spare: 10
+    accept-count: 200
+
+spring:
+  threads:
+    virtual:
+      enabled: false
+
+downstream:
+  base-url: http://127.0.0.1:8081
+  delay-ms: 60
+  jitter-ms: 15
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
